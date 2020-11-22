@@ -18,3 +18,6 @@ Route::get('/', [MainController::class, 'home'])->name('home');
 Route::get('/sign_in', [MainController::class, 'signIn'])->name('signIn');
 
 
+
+Auth::routes();
+
